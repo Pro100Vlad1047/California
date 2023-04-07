@@ -2,6 +2,9 @@
   width: 100%;
   padding: 20px 100px;
   height: 550px;
+  @media(max-width: 1024px){
+    height: 350px;
+  }
   .wrapper{
       position: relative;
       border-radius: 40px;
@@ -58,14 +61,14 @@
       }
     }
     .inside{
-      background-color: #DCE5E2;
       overflow: hidden;
       transition: 1s all;
       width: 300%;
       position: absolute;
       display: flex;
-      height: 550px;
+      height: 100%;
       .iphones_block{
+        background-color: #DCE5E2;
         display: flex;
         align-items: center;
         padding: 0px 60px;
@@ -85,6 +88,10 @@
             text-align: left;
             font-size: 58px;
             line-height: 70px;
+            @media(max-width: 1024px){
+                font-size: 30px;
+                line-height: 40px;
+            }
           }
           p{
             text-align: left;

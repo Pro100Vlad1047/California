@@ -30,14 +30,20 @@
         flex-direction: column;
         justify-content: space-between;
         gap:16px;
+        @media(max-width: 1440px){
+          width: 25%;
+        }
         .mac_widgets{ 
-          height: 60%;
+          height: 69%;
           display: flex;
           flex-grow: 1;
           justify-content: space-between;
           flex-direction: column;
           img{
             height:79%;
+            @media(max-width: 1440px){
+                width: 100%;
+            }
           }
           .mac_widgets_text{
             align-self: flex-end;
@@ -49,15 +55,18 @@
         .watch_widgets{
           display: flex;
           align-items: center;
-          height: 35%;
-          justify-content: center;
-          gap:70px;
+          height: 28%;
+          justify-content: space-between;
           img{
-            height: 100%
+            height: 100%;
+            padding-left: 80px;
+            @media(max-width: 1440px){
+                padding-left: 0px;
+            }
           }
           .watch_widgets_text{
             text-align: right;
-            padding-right:42px;
+            padding-right: 42px;
           }
         }
       }
@@ -68,6 +77,9 @@
         align-content: center;
         justify-content: center;
         gap:80px;
+        img{
+          width: 100%;
+        }
       }
       .right_widgets{
         flex-basis: 25%;
@@ -75,13 +87,26 @@
         flex-direction: column;
         justify-content: center;
         gap:80px;
+        img{
+            width: 100%
+          }
       }
     }
   }
 }
 
 h3{
-  font-size: 15px;
+  font-size: 20px;
+  @media(max-width: 1440px){
+      font-size: 15px;
+  }
+}
+
+p{
+  @media(max-width: 1440px){
+      font-size: 20px;
+      line-height: 25px;
+  }
 }
 
 .widgets_mini{

@@ -1,4 +1,3 @@
-import {useRef,useEffect,useState} from 'react';
 import s from './Devices.module.scss';
 import Watches from '../../images/watches.svg';
 import Macbook from '../../images/macbook.svg';
