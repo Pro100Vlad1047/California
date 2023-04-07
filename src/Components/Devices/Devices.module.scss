@@ -1,0 +1,98 @@
+.wrapper{
+  width: 100%;
+  padding: 75px 100px;
+  .devices{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+    h2{
+      font-size: 42px;
+      line-height: 52px;
+    }
+    .subtitle{
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center; 
+      padding-bottom: 30px; 
+    }
+    .widgets{
+      display: flex;
+      gap:16px;
+      font-size: 32px;
+      flex-shrink: 1;
+      line-height: 38px;
+      .left_widgets{
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:16px;
+        .mac_widgets{ 
+          height: 60%;
+          display: flex;
+          flex-grow: 1;
+          justify-content: space-between;
+          flex-direction: column;
+          img{
+            height:79%;
+          }
+          .mac_widgets_text{
+            align-self: flex-end;
+            text-align: right;
+            padding-right:42px;
+            flex-grow: 1;
+          }
+        }
+        .watch_widgets{
+          display: flex;
+          align-items: center;
+          height: 35%;
+          justify-content: center;
+          gap:70px;
+          img{
+            height: 100%
+          }
+          .watch_widgets_text{
+            text-align: right;
+            padding-right:42px;
+          }
+        }
+      }
+      .center_widgets{
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap:80px;
+      }
+      .right_widgets{
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:80px;
+      }
+    }
+  }
+}
+
+h3{
+  font-size: 15px;
+}
+
+.widgets_mini{
+  z-index: 2;
+  transition: 0.2s all;
+  cursor:pointer;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  &:hover{
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    transform: scale(1.005);
+   }
+}

@@ -1,0 +1,48 @@
+.Header{
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255,.8);
+  height: 80px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  .links{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap:33px;
+    align-items: center;
+    a{
+      color:black;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    img{
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    column-gap: 21px;
+    align-items: center;
+    img{
+      transition: 0.1s all;
+      cursor: pointer;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d9edcb0a.css",
+    "main.js": "./static/js/main.0e835f1e.js",
+    "static/media/Iphones.svg": "./static/media/Iphones.84a4299efc5677c8dd11a0dce1385617.svg",
+    "static/media/macbook.svg": "./static/media/macbook.33cbccff175d49afe3ecf8712442202a.svg",
+    "static/media/laptop.svg": "./static/media/laptop.cb61477d212ee4a292ec65c1f65aebc9.svg",
+    "static/media/watches.svg": "./static/media/watches.c93c6bcd13ff4e9a523b88f96fbd5480.svg",
+    "static/media/iphone_devices.svg": "./static/media/iphone_devices.417a96532d7fb3911748d4b385494f03.svg",
+    "static/media/IMAGE.svg": "./static/media/IMAGE.376d8accbd5e8068022a6274aa91de8a.svg",
+    "static/media/bash.svg": "./static/media/bash.970ae18c578601810ba02fd2f4456d0d.svg",
+    "index.html": "./index.html",
+    "static/media/loop.svg": "./static/media/loop.b63cc19a196a4b2fcbd06cdf81778fc7.svg",
+    "static/media/sliderArrow.svg": "./static/media/sliderArrow.3c55b757830e9f9f932ed226f1d1bf4d.svg",
+    "static/media/arrow_down.svg": "./static/media/arrow_down.95bb0fd8ce73b742aa26e3d6e77b62eb.svg",
+    "main.d9edcb0a.css.map": "./static/css/main.d9edcb0a.css.map",
+    "main.0e835f1e.js.map": "./static/js/main.0e835f1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9edcb0a.css",
+    "static/js/main.0e835f1e.js"
+  ]
+}
