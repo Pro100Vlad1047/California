@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.f84d46aa.css",
-    "main.js": "./static/js/main.0e835f1e.js",
+    "main.css": "./static/css/main.7a958dce.css",
+    "main.js": "./static/js/main.573348ca.js",
+    "static/media/watches_itemList.svg": "./static/media/watches_itemList.4239085b2e85e6f7a7d2da9d7b20f312.svg",
     "static/media/Iphones.svg": "./static/media/Iphones.84a4299efc5677c8dd11a0dce1385617.svg",
     "static/media/macbook.svg": "./static/media/macbook.33cbccff175d49afe3ecf8712442202a.svg",
     "static/media/laptop.svg": "./static/media/laptop.cb61477d212ee4a292ec65c1f65aebc9.svg",
     "static/media/watches.svg": "./static/media/watches.c93c6bcd13ff4e9a523b88f96fbd5480.svg",
     "static/media/iphone_devices.svg": "./static/media/iphone_devices.417a96532d7fb3911748d4b385494f03.svg",
+    "static/media/iPad_itemList.svg": "./static/media/iPad_itemList.db1897ef731c2d40863d35439c660fb6.svg",
+    "static/media/macbookAirM1_itemList.svg": "./static/media/macbookAirM1_itemList.038a01a5ecb0df5cefd8450bb792a078.svg",
+    "static/media/macbook_itemList.svg": "./static/media/macbook_itemList.06dcef4e32c425d8aa05eb01843745c7.svg",
     "static/media/IMAGE.svg": "./static/media/IMAGE.376d8accbd5e8068022a6274aa91de8a.svg",
     "static/media/bash.svg": "./static/media/bash.970ae18c578601810ba02fd2f4456d0d.svg",
     "index.html": "./index.html",
     "static/media/loop.svg": "./static/media/loop.b63cc19a196a4b2fcbd06cdf81778fc7.svg",
     "static/media/sliderArrow.svg": "./static/media/sliderArrow.3c55b757830e9f9f932ed226f1d1bf4d.svg",
     "static/media/arrow_down.svg": "./static/media/arrow_down.95bb0fd8ce73b742aa26e3d6e77b62eb.svg",
-    "main.f84d46aa.css.map": "./static/css/main.f84d46aa.css.map",
-    "main.0e835f1e.js.map": "./static/js/main.0e835f1e.js.map"
+    "main.7a958dce.css.map": "./static/css/main.7a958dce.css.map",
+    "main.573348ca.js.map": "./static/js/main.573348ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.f84d46aa.css",
-    "static/js/main.0e835f1e.js"
+    "static/css/main.7a958dce.css",
+    "static/js/main.573348ca.js"
   ]
 }
