@@ -36,6 +36,34 @@ const MostSelled=()=>{
         subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
         price:'$ 610.00 USD'
       },
+      {
+        id:5,
+        img:Ipad,
+        title:'iPad ',
+        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
+        price:'$ 810.00 USD'
+      },
+      {
+        id:6,
+        img:MacbookAir,
+        title:'MacBook Air M1',
+        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
+        price:'$ 2,999.00 USD'
+      },
+      {
+        id:7,
+        img:Watches,
+        title:'Smart Galaxy Watch 3',
+        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
+        price:'$ 199.00 USD'
+      },
+      {
+        id:8,
+        img:Watches,
+        title:'Smart Galaxy Watch 3',
+        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
+        price:'$ 239.00 USD'
+      },
     ]
 
     return (

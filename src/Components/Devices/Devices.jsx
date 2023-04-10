@@ -23,7 +23,7 @@ const Devices=()=>{
                   <img src={Macbook} alt="photo"/>
                   <div className={s.mac_widgets_text}>
                     <h3>Laptops</h3>
-                    <p>True Laptop<br/>Solution</p>
+                    <p>True Laptop Solution</p>
                   </div>
                 </div>
                 <div className={s.watch_widgets+' '+s.widgets_mini}>

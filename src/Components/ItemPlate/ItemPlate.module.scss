@@ -1,6 +1,5 @@
 .wrapper{
   padding: 10px;
-  min-width: 323px;
   transition: 0.2s all;
   border-radius: 10px;
   cursor: pointer;
@@ -11,21 +10,57 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    min-width: 250px;
     align-items: flex-start;
     gap:9px;
     height: 100%;
+    @media (max-width: 425px) {
+      min-width: 30px;
+      gap:3px;
+    }
     h2{
       font-size: 30px;
+      @media (max-width: 1250px) {
+        font-size: 25px;
+      }
+      @media (max-width: 900px) {
+        font-size: 22px;
+      }
+      @media (max-width: 425px) {
+        font-size: 13px;
+      }
+      @media(max-width: 325px){
+        font-size: 12px;
+      }
     }
     .subtitle{
       text-align: left;
+      @media (max-width: 900px) {
+        font-size: 14px;
+      }
+      @media (max-width: 425px) {
+        font-size: 8px;
+      }
+      @media(max-width: 325px){
+        font-size: 6px;
+      }
     }
     span{
       padding-top: 15px;
       font-size: 30px;
+      @media (max-width: 900px) {
+        font-size: 25px;
+        padding-top: 5px;
+      }
+      @media (max-width: 425px) {
+        font-size: 15px;
+        padding-top: 2px;
+      }
+      @media(max-width: 325px){
+        font-size: 10px;
+      }
     }
     img{
-      height: 70%;
       width: 100%;
       align-self: center;
       max-height: 70%;
@@ -34,6 +69,9 @@
       transition: 0.2s all;
       &:hover{
         transform: scale(1);
+      }
+      @media (max-width: 900px) {
+        width: 80%
       }
     }
   }

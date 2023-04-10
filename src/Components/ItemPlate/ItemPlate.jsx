@@ -1,9 +1,8 @@
 import s from './ItemPlate.module.scss';
 
 
-
+  
 const ItemPlate=(props)=>{
-    console.log(props.data);
 
     return (
       <div className={s.wrapper}>
