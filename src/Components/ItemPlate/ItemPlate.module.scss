@@ -9,7 +9,7 @@
   .ItemPlate{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     min-width: 250px;
     align-items: flex-start;
     gap:9px;
@@ -63,7 +63,7 @@
     img{
       width: 100%;
       align-self: center;
-      max-height: 70%;
+      height: 300px;
       flex-shrink: 1;
       transform: scale(0.9);
       transition: 0.2s all;
@@ -71,7 +71,13 @@
         transform: scale(1);
       }
       @media (max-width: 900px) {
-        width: 80%
+        width: 80%;
+      }
+      @media (max-width: 425px) {
+        height: 200px;
+      }
+      @media (max-width: 325px) {
+        height: 150px;
       }
     }
   }

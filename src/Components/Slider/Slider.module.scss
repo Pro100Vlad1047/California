@@ -76,12 +76,11 @@
       align-items: center;
       @media(max-width: 425px) {
         gap:10px;
-        height: 1px;
         width: 70%;  
       }
       .pag{
         width: 250px;
-        height: 4px;
+        height: 2px;
         cursor: pointer;
         border-radius: 1px;
         background-color: black;

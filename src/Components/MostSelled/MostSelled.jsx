@@ -4,67 +4,10 @@ import Macbook from '../../images/macbook_itemList.svg'
 import Watches from '../../images/watches_itemList.svg'
 import MacbookAir from '../../images/macbookAirM1_itemList.svg'
 import Ipad from '../../images/iPad_itemList.svg'
+import {data} from '../Databases/data.jsx'
 
 const MostSelled=()=>{
-
-    const data=[
-      {
-        id:1,
-        img:Macbook,
-        title:'MacBook Pro 13',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
-        price:'$ 1,200.00 USD'
-      },
-      {
-        id:2,
-        img:Watches,
-        title:'Smart Galaxy Watch 3',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
-        price:'$ 199.00 USD'
-      },
-      {
-        id:3,
-        img:MacbookAir,
-        title:'MacBook Air M1',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
-        price:'$ 1,009.00 USD'
-      },
-      {
-        id:4,
-        img:Ipad,
-        title:'iPad ',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
-        price:'$ 610.00 USD'
-      },
-      {
-        id:5,
-        img:Ipad,
-        title:'iPad ',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
-        price:'$ 810.00 USD'
-      },
-      {
-        id:6,
-        img:MacbookAir,
-        title:'MacBook Air M1',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet',
-        price:'$ 2,999.00 USD'
-      },
-      {
-        id:7,
-        img:Watches,
-        title:'Smart Galaxy Watch 3',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
-        price:'$ 199.00 USD'
-      },
-      {
-        id:8,
-        img:Watches,
-        title:'Smart Galaxy Watch 3',
-        subtitle:'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
-        price:'$ 239.00 USD'
-      },
-    ]
+    console.log(data)
 
     return (
       <div className={s.wrapper}>
