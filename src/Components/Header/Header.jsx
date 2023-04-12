@@ -65,7 +65,7 @@ function Header() {
       const interval=setInterval(()=>{
         setOpacitty(prev=>prev+0.03);
       },0.5)
-      setTimeout(()=>{clearInterval(interval)},150);
+      setTimeout(()=>{clearInterval(interval);setOpacitty(prev=>prev=1)},150);
     }else{
       setOpacitty(prev=>prev=1);
       const interval=setInterval(()=>{
@@ -106,8 +106,8 @@ function Header() {
             <a href="#">Support</a>
         </div>
         <div className={s.icons}>
-          <img src={Loop} alt="loop"/>
-          <img src={Bash} alt="bash"/>
+          <a href=""><img src={Loop} alt="loop"/></a>
+          <a href=""><img src={Bash} alt="bash"/></a>
         </div>
         
           <div ref={menuBtn} onClick={menuToggle} className={s.button}>

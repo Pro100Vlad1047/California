@@ -28,7 +28,7 @@
     align-items: center;
     a{
       color:black;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 400;
       img{
         width: 8px;
@@ -70,18 +70,22 @@
     justify-content: center;
     column-gap: 21px;
     align-items: center;
+    height: 80%;
     @media(max-width: 630px){
       visibility: hidden;
     }
-    img{
+    a{
+      img{
       transition: 0.1s all;
       cursor: pointer;
+      height: 30px;
       &:hover{
         transform: scale(1.1);
       }
       @media(max-width: 425px){
         height: 20px;
       }
+    }
     }
   }
 .wrapper{
