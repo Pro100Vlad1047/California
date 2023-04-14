@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.e2317471.css",
-    "main.js": "./static/js/main.cd3b4b27.js",
+    "main.css": "./static/css/main.4dc9ef4b.css",
+    "main.js": "./static/js/main.a500108d.js",
     "static/media/watches_itemList.svg": "./static/media/watches_itemList.4239085b2e85e6f7a7d2da9d7b20f312.svg",
     "static/media/Iphones.svg": "./static/media/Iphones.84a4299efc5677c8dd11a0dce1385617.svg",
     "static/media/macbook.svg": "./static/media/macbook.33cbccff175d49afe3ecf8712442202a.svg",
@@ -17,11 +17,11 @@
     "static/media/loop.svg": "./static/media/loop.b63cc19a196a4b2fcbd06cdf81778fc7.svg",
     "static/media/sliderArrow.svg": "./static/media/sliderArrow.3c55b757830e9f9f932ed226f1d1bf4d.svg",
     "static/media/arrow_down.svg": "./static/media/arrow_down.95bb0fd8ce73b742aa26e3d6e77b62eb.svg",
-    "main.e2317471.css.map": "./static/css/main.e2317471.css.map",
-    "main.cd3b4b27.js.map": "./static/js/main.cd3b4b27.js.map"
+    "main.4dc9ef4b.css.map": "./static/css/main.4dc9ef4b.css.map",
+    "main.a500108d.js.map": "./static/js/main.a500108d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2317471.css",
-    "static/js/main.cd3b4b27.js"
+    "static/css/main.4dc9ef4b.css",
+    "static/js/main.a500108d.js"
   ]
 }
