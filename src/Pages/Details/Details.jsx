@@ -2,6 +2,7 @@ import s from './Details.module.scss';
 import Slider from '../../Components/Slider/Slider.jsx';
 import Devices from '../../Components/Devices/Devices.jsx';
 import MostSelled from '../../Components/MostSelled/MostSelled.jsx';
+import DetailsView from '../../Components/DetailsView/DetailsView.jsx';
 import { useLocation } from "react-router-dom";
 import {useEffect} from 'react';
 
@@ -16,7 +17,8 @@ function Details() {
 
   return (
     <div className={s.Details}>
-      <MostSelled/>
+          <DetailsView data={state} />
+          <MostSelled />
     </div>
   );
 }
